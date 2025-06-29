@@ -1,5 +1,5 @@
 #!/bin/sh
-set -e # This line ensures that the script will exit immediately if any command fails.
+#set -e # This line ensures that the script will exit immediately if any command fails.
 
 echo "--- Script starting in /data directory. ---"
 echo "--- Finding video files... ---"
@@ -11,7 +11,7 @@ for f in *.[mM][pP]4; do
     echo "" # Add a blank line for readability
     echo ">>> Processing File: $f"
     # Run the command on the file. Quotes around "$f" handle spaces in names.
-    ezthumb -g 4x10 -R -s 30% "$f"
+    ezthumb -g 4x10 -R -s 25% "$f"
   fi
 done
 
