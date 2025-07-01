@@ -96,5 +96,3 @@ docker run --rm --entrypoint ezthumb -v "C:\Users\meowe29\Downloads\video_files:
 
 This project is licensed under the **GPL-3.0 License**. Please see the `LICENSE` file for details.
 
-```
-```
